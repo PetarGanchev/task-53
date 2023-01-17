@@ -12,17 +12,4 @@ window.addEventListener("DOMContentLoaded", () => {
   };
 
 
-  const cont=document.getElementsByClassName('content');
-  var elementNumber = document.getElementsByClassName('product');
-  for(var i=0; i<elementNumber.length; i++) {
-    elements[i].setAttribute('DataContent',cont[i].innerHTML)
-  };
-  
-
-   console.log(cont);
-   console.log(elementNumber.length);
-
-
-
-
 });
